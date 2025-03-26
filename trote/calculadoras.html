@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Trote Solidário</title>
         <link rel="stylesheet" href="css/styles.css">
+        <script src="js/scripts.js"></script>
     </head>
 <body>
     <header>
@@ -23,15 +24,25 @@
         </div>
         <img src="../trote/imagens/trote_solidario_2025_edited-768x753.jpg" alt=" Trote Solidário"/>
     </nav>
-    <div class="container">
+    <div class="campos">
         <h2>
-            Trote Solidário 2025
+            Calculadoras
         </h2>
-        <p>Construa vitórias fora de campo e jogue pela solidariedade</p>
-        <p> Centro Municipal de Franca
-        </p>
-        <p> Uni-Facef</p>
-        <p> Franca-S</p>
-    </div>-
+        <form>
+            <div class="campos">
+                <label> Mascote do time</label>
+                <input type="number" id="Mascote">
+            </div>
+            <div>
+                <label>Homenagem a um atleta</label>
+                <input type="number" id="Homenagem">
+            </div>
+            <div class="campos">
+                <button type="button" onclick="calcular()">Calcular</button>
+            </div>
+
+        </form>
+        
+    </div>
 </body>
 </html>
